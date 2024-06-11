@@ -1,0 +1,199 @@
+div.new-year{
+    display: none;
+}
+div.newyear-plus{
+   width: 100%;
+   height: 950px;
+   padding: 0px 15px;
+   margin: 30px auto;
+   >div:nth-of-type(1){
+    width: 100%;
+    height: 125px;
+    position: relative;
+    >div{
+        width: 400px;
+        height:120px;
+        margin: auto;
+        text-align: center;
+        >h3{
+            font-size: 30px;
+            color: #333333;
+        }
+        >p{
+            font-size: 12px;
+            color: #333333;
+            margin-top: 10px;
+        }
+
+    }
+    
+ }
+   >div:nth-of-type(2){
+      width: 100%;
+      height: 312px;
+      position: relative;
+      >img{
+         width: inherit;
+         height: inherit;
+      }
+      >p{
+        width: inherit;
+        height: 37px;
+        font-size: 10px;
+        color: #ffffff;
+        text-align: center;
+        text-transform: uppercase;
+        position: absolute;
+        bottom: 80px;
+    }
+      >div{
+         width: 228px;
+         height: 45px;
+         position: absolute;
+         background-color: rgba(0, 0, 0, 0.3);
+         color: rgb(255, 255, 255);
+         bottom: 20px;
+         left: 120px;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         font-size: 15.12px;
+         text-transform: uppercase;
+         border-radius: 25px;
+      }>div:hover{
+         background-color: rgb(204, 204, 204);
+         color: black;
+      }       
+   }
+   >div:nth-of-type(3){
+      width: 100%;
+      height: 397px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-top: 30px;
+      >div.newitems-plus{
+         width: 210.7px;
+         height: inherit;
+         >div:nth-of-type(1){
+            width: 210.7px;
+            height: 230.7px;
+            background-color: #f5f5f5;
+            position: relative;
+            >img{
+               width: 210.7px;
+               height: 240.7px;
+            }
+            >span{
+               width: 97.2px;
+               height: 28px;
+               background-color:rgb(99, 102, 106) ;
+               position: absolute;
+               top: 10px;
+               left: 10px;
+               border-radius: 5px;
+               color: rgb(255, 255, 255);
+               font-size: 8px;
+               padding: 5px;
+               text-transform: uppercase;
+
+            }
+            >div.botton{
+               width: 45px;
+               height: 45px;
+               display: flex;
+               justify-content: center;
+               align-items: center;
+               position: absolute;
+               bottom: 30px;
+               right: 12px;
+               background-color: white;
+               border-radius: 50%;
+               box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+
+            }
+            >div:nth-of-type(2){
+               width: 210.7px;
+               height: 20px;
+            }
+         }
+         >div:nth-of-type(2){
+            width: 210.7px;
+            height: 23.2px;
+            margin-top: 10px;
+            >.checked{
+               color: rgb(128, 205, 208);
+            }
+              >.not-checked{
+               color: lightgray;
+            } 
+         }
+         >div:nth-of-type(3){
+            width: 210.7px;
+            height: 60px;
+            margin-top: 10px;
+            >div:nth-of-type(1){
+               width: inherit;
+               height: 20px;
+               color: #666666;
+               font-size: 10.08px;
+            }
+            >div:nth-of-type(2){
+               width: inherit;
+               height: 40px;
+               color: #333333;
+               font-size: 14.11px;
+            }
+         }
+         >div:nth-of-type(4){
+            width: 210.7px;
+            height: 21px;
+            margin-top: 10px;
+            display: flex;
+            align-items: center;
+            >div:nth-of-type(1){
+               width: 45px;
+               height: inherit;
+               font-size: 14.11px;
+               color: #685BC7;
+            }
+           
+            >div:nth-of-type(2){
+               width: 47px;
+               height: inherit;
+               font-size: 14.11px;
+               color: #666666;
+               text-decoration: line-through;
+
+            }
+         }
+      }
+   }
+   >div:nth-of-type(4){
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 30px;
+      >span:nth-of-type(1){
+         width: 110px;
+         height: 45px;
+         border-radius: 30px;
+         border: 1px solid black;
+         cursor: pointer;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         >a{
+            text-decoration: none;
+            font: 14.112px;
+            color: black;
+         }
+        }
+        >span:nth-of-type(1):hover{
+         background-color: rgb(204, 204, 204);
+        }
+   }
+   }
+
+

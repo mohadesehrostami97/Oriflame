@@ -1,0 +1,176 @@
+div.container2 {
+  width: 90%;
+  height: 450px;
+  margin: auto;
+  padding: 0px 30px;
+  margin-top: 100px; }
+  div.container2 > div:nth-of-type(1) {
+    width: 100%;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px; }
+    div.container2 > div:nth-of-type(1) > span:nth-of-type(1) {
+      width: 110px;
+      height: 45px;
+      border-radius: 30px;
+      border: 1px solid black;
+      cursor: pointer;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      div.container2 > div:nth-of-type(1) > span:nth-of-type(1) > a {
+        text-decoration: none;
+        font: 14.112px; }
+    div.container2 > div:nth-of-type(1) > span:nth-of-type(1):hover {
+      background-color: #cccccc; }
+    div.container2 > div:nth-of-type(1) > span:nth-of-type(2) {
+      width: 211px;
+      height: 47px;
+      color: #333333;
+      font-size: 35.32px;
+      margin: auto; }
+  div.container2 > div:nth-of-type(2) {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center; }
+    div.container2 > div:nth-of-type(2) > div.container-bestitems {
+      width: 750px;
+      height: 300px;
+      margin-right: 0px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 5px; }
+      div.container2 > div:nth-of-type(2) > div.container-bestitems > div.bestitem {
+        width: 130.7px;
+        height: inherit; }
+        div.container2 > div:nth-of-type(2) > div.container-bestitems > div.bestitem > div:nth-of-type(1) {
+          width: 130px;
+          height: 155px;
+          background-color: #f5f5f5;
+          position: relative;
+          border-radius: 5px; }
+          div.container2 > div:nth-of-type(2) > div.container-bestitems > div.bestitem > div:nth-of-type(1) > img {
+            width: 130px;
+            height: 155.7px;
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px; }
+          div.container2 > div:nth-of-type(2) > div.container-bestitems > div.bestitem > div:nth-of-type(1) > span {
+            width: 97.2px;
+            height: 28px;
+            background-color: #63666a;
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            border-radius: 5px;
+            color: white;
+            font-size: 12px;
+            padding: 5px;
+            text-transform: uppercase; }
+          div.container2 > div:nth-of-type(2) > div.container-bestitems > div.bestitem > div:nth-of-type(1) > div.botton {
+            width: 45px;
+            height: 45px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: absolute;
+            bottom: 30px;
+            right: 12px;
+            background-color: white;
+            border-radius: 50%;
+            box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px; }
+          div.container2 > div:nth-of-type(2) > div.container-bestitems > div.bestitem > div:nth-of-type(1) > div:nth-of-type(2) {
+            width: 236.7px;
+            height: 20px; }
+        div.container2 > div:nth-of-type(2) > div.container-bestitems > div.bestitem > div:nth-of-type(2) {
+          width: 236.7px;
+          height: 23.2px;
+          margin-top: 10px; }
+          div.container2 > div:nth-of-type(2) > div.container-bestitems > div.bestitem > div:nth-of-type(2) > .checked {
+            color: #80cdd0; }
+          div.container2 > div:nth-of-type(2) > div.container-bestitems > div.bestitem > div:nth-of-type(2) > .not-checked {
+            color: lightgray; }
+        div.container2 > div:nth-of-type(2) > div.container-bestitems > div.bestitem > div:nth-of-type(3) {
+          width: 236.7px;
+          height: 41px;
+          margin-top: 10px; }
+          div.container2 > div:nth-of-type(2) > div.container-bestitems > div.bestitem > div:nth-of-type(3) > div:nth-of-type(1) {
+            width: inherit;
+            height: 20px;
+            color: #666666;
+            font-size: 7.08px; }
+          div.container2 > div:nth-of-type(2) > div.container-bestitems > div.bestitem > div:nth-of-type(3) > div:nth-of-type(2) {
+            width: inherit;
+            height: 20px;
+            color: #333333;
+            font-size: 8.11px; }
+        div.container2 > div:nth-of-type(2) > div.container-bestitems > div.bestitem > div:nth-of-type(4) {
+          width: 236.7px;
+          height: 21px;
+          margin-top: 10px;
+          display: flex;
+          align-items: center; }
+          div.container2 > div:nth-of-type(2) > div.container-bestitems > div.bestitem > div:nth-of-type(4) > div:nth-of-type(1) {
+            width: 45px;
+            height: inherit;
+            font-size: 14.11px;
+            color: #685BC7; }
+          div.container2 > div:nth-of-type(2) > div.container-bestitems > div.bestitem > div:nth-of-type(4) > div:nth-of-type(2) {
+            width: 47px;
+            height: inherit;
+            font-size: 14.11px;
+            color: #666666;
+            text-decoration: line-through; }
+      div.container2 > div:nth-of-type(2) > div.container-bestitems div.bestitem:nth-of-type(1) > div:nth-of-type(1) > span {
+        display: none !important; }
+      div.container2 > div:nth-of-type(2) > div.container-bestitems div.bestitem:nth-of-type(2) > div:nth-of-type(1) > span {
+        display: none !important; }
+      div.container2 > div:nth-of-type(2) > div.container-bestitems div.bestitem:nth-of-type(4) > div:nth-of-type(1) > span {
+        display: none !important; }
+    div.container2 > div:nth-of-type(2) > div:nth-of-type(2) {
+      width: 160px;
+      height: 270px;
+      display: flex;
+      align-items: first baseline;
+      position: relative;
+      cursor: pointer;
+      margin-left: 10px; }
+      div.container2 > div:nth-of-type(2) > div:nth-of-type(2) > img {
+        width: inherit;
+        height: inherit;
+        object-fit: cover; }
+      div.container2 > div:nth-of-type(2) > div:nth-of-type(2) > div {
+        width: 160px;
+        height: 200px;
+        position: absolute;
+        bottom: 0px;
+        left: 0px;
+        padding: 30px 10px;
+        font-size: 12.12px;
+        text-transform: uppercase; }
+        div.container2 > div:nth-of-type(2) > div:nth-of-type(2) > div > div:nth-of-type(1) {
+          width: 150px;
+          height: 84px;
+          font-size: 20px;
+          color: #333333;
+          text-align: center; }
+        div.container2 > div:nth-of-type(2) > div:nth-of-type(2) > div > div:nth-of-type(2) {
+          width: 115px;
+          height: 45.5px;
+          border-radius: 25px;
+          background-color: #0000004d;
+          margin: 10px auto;
+          font-size: 13px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          color: white; }
+        div.container2 > div:nth-of-type(2) > div:nth-of-type(2) > div > div:nth-of-type(2):hover {
+          background-color: rgba(255, 255, 255, 0.3);
+          color: #333333; }
+
+div.container2-plus {
+  display: none; }

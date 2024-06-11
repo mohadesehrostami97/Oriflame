@@ -1,0 +1,11 @@
+div.single-video {
+  width: 80%;
+  height: 455px;
+  margin-bottom: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 80px; }
+  div.single-video > video {
+    width: 650px;
+    height: inherit; }
